@@ -8,7 +8,8 @@ const Footer = () => {
 
         {/* Logo + Description */}
         <div>
-          <img className='mb-5 w-40' src={assets.logo} alt="MeduraX Logo" />
+          
+          <p className='text-2xl font-bold cursor-pointer mb-5'>MeduraX</p>
           <p className='w-full md:w-2/3 text-gray-600 leading-6'>
             MeduraX is your trusted platform for booking doctor appointments and managing healthcare needs easily. 
             We aim to connect patients with the right doctors in the simplest way possible.
